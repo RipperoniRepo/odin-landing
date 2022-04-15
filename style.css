@@ -14,6 +14,10 @@ a {
   font-weight: 400;
 }
 
+button:hover {
+  box-shadow: 5px 3px 5px #354761;
+}
+
 .header, .top-third, .mid-third, .bot-third {
   padding: 0 15vw;
 }
