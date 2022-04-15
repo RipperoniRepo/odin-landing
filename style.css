@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  text-align: center;
+}
+
+.top-third, .mid-third, .bot-third {
+  display: flex;
+}
+
+.top-third {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.promo-signup {
+  display: flex;
+  flex-direction: column;
+  min-width: 250px;
+}
+
+.promo-image {
+  min-width: 250px;
+}
+
+.mid-third {
+  display: flex;
+  flex-direction: column;
+}
+
+.mid-heading {
+  display: flex;
+  justify-content: center;
+}
+
+.card-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-text {
+  text-align: center;
+}
+
+.bot-third {
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-text {
+  text-align: center;
+}
+
+.quote-author {
+  text-align: right;
+  padding-right: 5rem;
+}
+
+.call-to-action {
+  display: flex;
+  justify-content: space-around;
+}
+
+ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  gap: 15px;
+}
+
+ul li {
+  display: flex;
+}
